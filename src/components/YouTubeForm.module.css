@@ -1,0 +1,56 @@
+.youtubeForm {
+  width: 300px;
+}
+.youtubeForm > div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.youtubeForm input {
+  margin-top: 3px;
+  padding: 4px;
+  height: 18px;
+}
+.youtubeForm input:focus {
+  outline: none;
+}
+.youtubeForm button {
+  background-color: teal;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  padding: 7px 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+}
+.youtubeForm button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.error {
+  color: tomato;
+  margin: 5px 0 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.dynamicPhones > div {
+  display: flex;
+}
+.dynamicPhones > div input {
+  flex: 1;
+}
+.dynamicPhones > div button {
+  margin-top: 3px;
+  width: 80px;
+  margin-inline-start: 3px;
+  background-color: tomato;
+}
+
+.resetBtn {
+  background-color: tomato !important;
+}
